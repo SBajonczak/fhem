@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" ></div>
+
+    <!-- define your personal style here, it wont be overwritten  -->
+    <!-- link rel="stylesheet" href="css/fhem-green-ui.css" / -->
+    <link rel="stylesheet" href="css/fhem-tablet-ui-user.css" />
+
+    <script src="js/fhem-tablet-ui.js" defer></script>
+
+
+    <!-- Remove this line to enable for usage with WebViewControl
+    <script defer>var wvcDevices = {'12345': 'Tablet'}; var wvcUserCssFile="webviewcontrol.css"</script>
+    <script src="../pgm2/cordova-2.3.0.js" defer></script>
+    <script src="../pgm2/webviewcontrol.js" defer></script>
+    <!-- End for WebViewControl -->
+
+		<title>Haussteuerung</title>
+	</head>
+
+	<body>
+
+		<div class="gridster">
+			<ul>
+				<li data-row="3" data-col="3" data-sizex="1" data-sizey="1">
+					<header>WETTER</header>
+					<div class="sheet">
+						<div class="row">
+							<div class="cell">
+								<div data-type="label" class=" darker top-space">Heute</div>
+								<div data-type="weather" data-device="Wetter" data-get="fc1_condition"  class="big"></div>
+								<div data-type="label" data-device="Wetter" data-get="fc1_low_c" data-unit="%B0C%0A" class="large"></div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+					<header>ABFALL</header>
+					<div class="sheet">
+						<div class="row">
+							<div class="cell">
+								<div
+			     data-device="MuellterminDummy"
+			     data-get="BlaueTonne" data-type="symbol" data-icons='["fa-trash-o warn fa-spin","fa-trash-o warn"]' 
+			     data-get-on='["0","2"]' data-on-colors='["blue","blue"]' class="bigger inline">
+								</div>
+							</div>
+							<div class="cell">
+								<div
+			     data-device="MuellterminDummy"
+			     data-get="GelbeTonne" data-type="symbol" data-icons='["fa-trash-o warn fa-spin","fa-trash-o warn"]' 
+			     data-get-on='["0","2"]' data-on-colors='["yellow","yellow"]' class="bigger inline">
+								</div>
+							</div>
+							<div class="cell">
+								<div
+			     data-device="MuellterminDummy"
+			     data-get="Restmuell" data-type="symbol" data-icons='["fa-trash-o warn fa-spin","fa-trash-o warn"]' 
+			     data-get-on='["0","2"]' data-on-colors='["grey","grey"]' class="bigger inline">
+								</div>
+							</div>
+						</div>
+					</li>
+					
+										<li data-row="1" data-col="2" data-sizey="1" data-sizex="2">
+						<header>Status Fenster</header>
+						<div class="sheet">
+							<div class="row">
+								<div class="cell">
+									<div class="big" data-type="symbol" data-device="Dachfenster_Garten" data-get-on="opened"></div>
+									<div data-type="label" class="top-narrow small">Fenster Garten</div>
+								</div>
+								<div class="cell">
+									<div class="big" data-type="symbol" data-device="Dachfenster_Strasse" data-get-on="opened"></div>
+									<div data-type="label" class="top-narrow small">Fenster Strasse</div>
+								</div>
+								<div class="cell">
+									<div class="big" data-type="symbol" data-device="Kuechen_Fenster" data-get-on="opened"></div>
+									<div data-type="label" class="top-narrow small">Küche</div>
+								</div>
+								<div class="cell">
+									<div class="big" data-type="symbol" data-device="Haustuer" data-get-on="opened"></div>
+									<div data-type="label" class="top-narrow small">Haustür</div>
+								</div>
+								<div class="cell">
+									<div class="big" data-type="symbol" data-device="Balkontuer" data-get-on="opened"></div>
+									<div data-type="label" class="top-narrow small">Balkontür</div>
+								</div>
+							</div>
+
+
+						</div>
+					</li>
+			<li data-row="2" data-col="2" data-sizey="1" data-sizex="1">
+						<header>VORGARTEN</header>
+						<div class="sheet">
+							<div class="row">
+								<div class="cell">
+									<div data-type="switch" data-device="Licht_Vorgarten"></div>
+									<div data-type="label">Licht</div>
+								</div>
+								<div class="cell">
+									<div data-type="switch" data-device="Steckdose_Vorne" data-icon="fa-plug"></div>
+									<div data-type="label">Steckdose</div>
+								</div>
+								<div class="cell">
+									<div data-type="switch" data-device="Licht_Garage"></div>
+									<div data-type="label">Garagenlicht</div>
+								</div>
+							</div>
+						</li>
+						<li data-row="2" data-col="1" data-sizey="1" data-sizex="1">
+							<header>TERASSE</header>
+							<div class="sheet">
+								<div class="row">
+									<div class="cell">
+										<div data-type="switch" data-device="Licht_Garten_Terasse"></div>
+										<div data-type="label" class="cell">Bodenlicht</div>
+									</div>
+									<div class="cell">
+										<div data-type="switch" data-device="Licht_Terasse" ></div>
+										<div data-type="label" class="cell">Garagenlicht</div>
+									</div>
+									<div class="cell">
+										<div data-type="switch" data-device="GalerieLicht" data-icon="fa-plug"></div>
+										<div data-type="label" class="cell">Steckdosen</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-row="3" data-col="3" data-sizey="1" data-sizex="1">
+							<header>Anwesenheit</header>
+							<div class="sheet">
+								<div class="row">
+									<div class="cell">
+										<div data-type="symbol" data-device='Marijke' data-get-on='present' data-icon="fa-user" class="cell bigger"></div>
+										<div data-type="label" class="cell">Marijke</div>
+									</div>
+									<div class="cell">
+										<div data-type="symbol" data-device='Sascha' data-get-on='present' data-icon="fa-user" class="cell bigger"></div>
+										<div data-type="label" class="cell">Sascha</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-row="4" data-col="3" data-sizey="1" data-sizex="1">
+							<header>Arbeitszimmer</header>
+							<div class="sheet">
+								<div class="row">
+									<div class="cell">
+										<div data-type="switch" data-device='ArbeitszimmerLicht' class="cell"></div>
+										<div data-type="label" class="cell">Tischlicht</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-row="4" data-col="1" data-sizex="1" data-sizey="1">
+							<header>Wohnzimmer</header>
+							<div class="sheet2">
+								<div class="row">
+									<div class="cell">
+										<div data-type="switch" data-device="Aquarium_Licht"></div>
+										<div data-type="label">Aquarium</div>
+								</div>
+								
+									<div class="cell">
+										<div data-type="switch" data-device="Stehlampe_Licht"></div>
+										<div data-type="label">Stehlampe Wohnzimmer</div>
+									</div>
+								</div>
+							</div>
+						</li>
+
+				<li data-row="4" data-col="1" data-sizey="1" data-sizex="3">
+							<header>7-Tage-Wettervorhersage</header>
+							<div class="sheet">
+								<div class="row">
+									<div class="cell">
+	
+										<div data-type="chart" data-device="WetterProplanta"
+												 data-logdevice='[
+																	"proplantaProxy",
+																	"proplantaProxy",
+																	"proplantaProxy",
+																	"proplantaProxy"
+																]'
+												 data-columnspec='[
+																	"Func:logProxy_proplanta2Plot(\\x22WetterProplanta\\x22,\\x22weatherDayIcon\\x22,$from,$to,12,\\x22day\\x22)",
+																	"Func:logProxy_proplanta2Plot(\\x22WetterProplanta\\x22,\\x22rain_\\x22,$from,$to,12,\\x22day\\x22)",
+																	"Func:logProxy_proplanta2Plot(\\x22WetterProplanta\\x22,\\x22chOfRain_\\x22,$from,$to,12,\\x22day\\x22)",
+																	"Func:logProxy_proplanta2Plot(\\x22WetterProplanta\\x22,\\x22cloud_\\x22,$from,$to,12,\\x22day\\x22)"
+																	]'
+												 data-style='[
+																	"ftui l99icon",
+																	"ftui l6fill",
+																	"ftui l5fill",
+																	"ftui l1fill"
+															]'
+												 data-ptype='[
+																	"icons:1",
+																	"steps",
+																	"quadraticSmooth",
+																	"quadraticSmooth"
+															]'
+												 data-uaxis='[
+																	"primary",
+																	"primary",
+																	"secondary",
+																	"secondary"
+															]'
+												 data-legend='[
+																	"Bedingung",
+																	"Regen",
+																	"Regenwahrscheinlichkeit",
+																	"Wolken"
+															]'
+												 data-yunit="mm"
+												 data-ytext="Regen"
+												 data-yunit_sec="%"
+												 data-ytext_sec="Chance auf Regen / Wolken"
+												 data-timeformat="eeee"
+												 data-minvalue="auto"
+												 data-maxvalue="auto"
+												 data-minvalue_sec="auto"
+												 data-maxvalue_sec="auto"
+												 data-daysago_start = "0"
+												 data-daysago_end = "-7"
+												 data-xticks="1440"
+												 data-yticks="auto"
+												 data-showlegend="true"
+												 class="nobuttons fullsize"></div>
+									</div>
+								</div>
+							</div>
+						</li>
+
+						
+	
+
+
+
+						</ul>
+				</div>
+			</body>
+
+		</html>
+		

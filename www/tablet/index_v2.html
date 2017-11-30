@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" href="favicon.ico" type="image/x-icon" ></div>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="longpoll" content="1"/>
+		<meta name="longpoll_type" content="websocket"/>	
+		<meta name="debug" content="0"/>
+		<link rel="stylesheet" href="css/fhem-tablet-ui-user.css" />
+		<script src="js/fhem-tablet-ui.js" defer></script>
+		<title>Haussteuerung</title>
+	</head>
+	<body>
+		<div class="gridster">
+			<ul>
+				<li data-row="1" data-col="1" data-sizey="7" data-sizex="1" data-template="menu_v2.html"></li>
+				
+				<li data-row="1" data-col="2" data-sizex="3" data-sizey="3">
+				<header>Meldungen</header>
+					<div data-type="label" data-device="fensterStatusMsg" data-get="STATE"></div>
+					<br/>
+				</li>
+				<li data-row="1" data-col="4" data-sizex="7" data-sizey="3">
+					<header>Zugfahrplan WAN -> DUS</header>
+					<table border="0px" width="100%">
+						<tr>
+							<td>
+								<div class="inline">
+								  <div data-type="label" class="narrow">Abfahrt</div>
+								  <div data-type="label" data-device="pendlerDUS" data-get="plan_departure_1" style="color:#96F20C;" class="cell"></div>
+								  <div data-type="label" data-device="pendlerDUS" data-get="plan_departure_2" style="color:#96F20C;" class="cell"></div>
+								  <div data-type="label" data-device="pendlerDUS" data-get="plan_departure_3" style="color:#96F20C;" class="cell"></div>
+								</div>
+								<div class="inline">
+								  <div data-type"label" class="narrow">Versp&auml;tung</div>
+								  <div data-type="label" data-device="pendlerDUS" data-get="plan_departure_delay_1" style="color:#F20C23;" class="cell"></div>
+								  <div data-type="label" data-device="pendlerDUS" data-get="plan_departure_delay_2" style="color:#F20C23;" class="cell"></div>
+								  <div data-type="label" data-device="pendlerDUS" data-get="plan_departure_delay_3" style="color:#F20C23;" class="cell"></div>
+								</div>
+								<div class="inline">
+								  <div data-type="label" class="narrow">Zugnummer</div>
+								  <div data-type="label" data-device="pendlerDUS" data-get="travel_vehicle_nr_1" style="color:#aa6900;" class="cell"></div>
+								  <div data-type="label" data-device="pendlerDUS" data-get="travel_vehicle_nr_2" style="color:#aa6900;" class="cell"></div>
+								  <div data-type="label" data-device="pendlerDUS" data-get="travel_vehicle_nr_3" style="color:#aa6900;" class="cell"></div>
+								</div>
+							</td>
+						</tr>
+					</table>
+				<header>Anstehende Termine</header>
+					<div data-type="label" data-device="FamlienKalenderDummy" data-get="STATE"></div>
+				</li>
+				<li data-row="1" data-col="11" data-sizex="1" data-sizey="3">
+					<header>Abfalltermine</header>
+					<div class="cell">
+						<div data-device="Abfalltermine" data-get="AbfallGoogleCalender_USBAbfuhrBlau-Altpapier_tage" data-type="symbol" data-icons='["fa-trash-o warn fa-spin","fa-trash-o warn"]' data-get-on='["0","2"]' data-on-colors='["blue","blue"]' class="inline"></div>
+					</div>
+					<div class="cell">
+						<div data-device="Abfalltermine" data-get="AbfallGoogleCalender_USBAbfuhrGelb-kombinierteWertstofftonne_tage" data-type="symbol" data-icons='["fa-trash-o warn fa-spin","fa-trash-o warn"]'  data-get-on='["0","2"]' data-on-colors='["yellow","yellow"]' class="inline"></div>
+					</div>
+					<div class="cell">
+						<div data-device="Abfalltermine" data-get="AbfallGoogleCalender_USBAbfuhrGrau-Restmuell_tage" data-type="symbol" data-icons='["fa-trash-o warn fa-spin","fa-trash-o warn"]' data-get-on='["0","2"]' data-on-colors='["grey","grey"]' class="inline"></div>
+					</div>
+				</li>
+				
+				<li data-row="5" data-col="2" data-sizex="6" data-sizey="3">
+				  <header>Steuerung</header>
+					<div class="centered container" style="margin-top:20px">
+						<div class="left" style="margin-left:40px;margin-right:25px">
+							<div data-type="switch" data-device="Aquarium_Licht"></div>
+							<div data-type="label">Aquarium</div>
+						</div>
+						<div class="left" style="margin-left:40px;margin-right:25px">
+							<div data-type="switch" data-device="Stehlampe_Licht"></div>
+							<div data-type="label">Stehlampe Wohnzimmer</div>
+						</div>
+						
+						<div class="left" style="margin-left:40px;margin-right:25px">
+							<div data-type="switch" data-device='Licht_Vorgarten'></div>
+							<div data-type="label">Vorgarten</div>
+						</div>
+						<div class="left" style="margin-left:40px;margin-right:25px">
+							<div data-type="switch" data-device='Licht_Garten_Terasse'></div>
+							<div data-type="label">Gartenlichter</div>
+						</div>
+						<div class="left" style="margin-left:40px;margin-right:25px">
+							<div data-type="switch" data-device="WifiRadio" data-set-on="play" data-set-off="stop" data-get-on="play" data-get-off="stop" data-icon="fa-music" data-on-color="white"></div>
+							<div data-type="label">Radio</div>
+						</div>
+						<div class="left" style="margin-left:40px;margin-right:25px">
+							<div data-type="switch" data-device="TV" data-icon="fa-television"></div>
+							<div data-type="label" data-device="TV" data-get="name"></div>
+						</div>
+								
+					</div>
+
+
+				</li>
+				<li data-row="5" data-col="8" data-sizex="5" data-sizey="3">
+				  <header>Weihnachsbeleuchtung</header>
+					<div class="container" style="margin-top:20px">
+					<table style="background-image: url('https://media.giphy.com/media/uNHoeGm47Yp0c/giphy.gif'); background-size: cover; width: 100%; height: 100%;" heigth="100%" width="100%">
+					<tr>
+						<td>
+							<div data-type="switch" data-icon="fa-lightbulb-o" data-device='ArbeitszimmerLicht'/>
+							<div data-type="label">Lichterkette Kinderzimmer</div>
+
+							</td>
+						<td>
+							<div data-type="switch" data-icon="fa-lightbulb-o" data-device='SteckDoseGartenLinks'/>
+							<div data-type="label">Rentier</div>
+						</td>
+					</tr>
+					</table>
+					
+					</div>
+				</li>
+				
+				
+			</ul>
+		</div>
+	</body>
+</html>
+		

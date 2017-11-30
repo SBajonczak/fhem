@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" href="favicon.ico" type="image/x-icon" ></div>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="longpoll_filter" content=".*">
+		<link rel="stylesheet" href="css/fhem-tablet-ui-user.css" />
+		<script src="js/fhem-tablet-ui.js" defer></script>
+		<title>Haussteuerung</title>
+	</head>
+	<body>
+		<div class="gridster">
+			<ul>
+				<li data-row="1" data-col="1" data-sizey="1" data-sizex="9" data-template="menu.html"></li>
+				<li data-row="6" data-col="1" data-sizey="1" >
+					<header>Status Fenster</header>
+					<div class="sheet">
+						<div class="row">
+							<div class="cell">
+								<div class="big" data-type="symbol" data-device="Dachfenster_Garten" data-get-on="opened"></div>
+								<div data-type="label" class="top-narrow small">Fenster Garten</div>
+							</div>
+							<div class="cell">
+								<div class="big" data-type="symbol" data-device="Dachfenster_Strasse" data-get-on="opened"></div>
+								<div data-type="label" class="top-narrow small">Fenster Strasse</div>
+							</div>
+							<div class="cell">
+								<div class="big" data-type="symbol" data-device="Kuechen_Fenster" data-get-on="opened"></div>
+								<div data-type="label" class="top-narrow small">Küche</div>
+							</div>
+							<div class="cell">
+								<div class="big" data-type="symbol" data-device="Haustuer" data-get-on="opened"></div>
+								<div data-type="label" class="top-narrow small">Haustür</div>
+							</div>
+							<div class="cell">
+								<div class="big" data-type="symbol" data-device="Balkontuer" data-get-on="opened"></div>
+								<div data-type="label" class="top-narrow small">Balkontür</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				
+				<li data-row="2" data-col="1" data-sizex="3" data-sizey="2">
+    <header>Zugfahrplan</header>
+    <div data-type="label" style="font-size:x-large;color:#aa6900;"  class="cell">Herne>>Dus</div>
+    <table border="0px" width="100%">
+        <tr>
+            <td>
+				<div class="inline">
+				  <div data-type="label" class="narrow">Abfahrt</div>
+				  <div data-type="label" data-device="pendlerDUS" data-get="plan_departure_1" style="font-size:x-large;color:#96F20C;" class="cell"></div>
+				  <div data-type="label" data-device="pendlerDUS" data-get="plan_departure_2" style="font-size:x-large;color:#96F20C;" class="cell"></div>
+				  <div data-type="label" data-device="pendlerDUS" data-get="plan_departure_3" style="font-size:x-large;color:#96F20C;" class="cell"></div>
+				</div>
+				<div class="inline">
+				  <div data-type="label" class="narrow">Ankunft</div>
+						<div data-type="label" data-device="pendlerDUS" data-get="plan_arrival_1" style="font-size:x-large;color:#aa6900;" class="cell"></div>
+						<div data-type="label" data-device="pendlerDUS" data-get="plan_arrival_2" style="font-size:x-large;color:#aa6900;" class="cell"></div>
+						<div data-type="label" data-device="pendlerDUS" data-get="plan_arrival_3" style="font-size:x-large;color:#aa6900;" class="cell"></div>
+				</div>
+				<div class="inline">
+				  <div data-type="label" class="narrow">Dauer</div>
+						<div data-type="label" data-device="pendlerDUS" data-get="plan_travel_duration_1" style="font-size:x-large;color:#635EF2;" class="cell"></div>
+						<div data-type="label" data-device="pendlerDUS" data-get="plan_travel_duration_2" style="font-size:x-large;color:#635EF2;" class="cell"></div>
+						<div data-type="label" data-device="pendlerDUS" data-get="plan_travel_duration_3" style="font-size:x-large;color:#635EF2;" class="cell"></div>
+				</div>
+				<div class="inline">
+				  <div data-type"label" class="narrow">Versp&auml;tung</div>
+				  <div data-type="label" data-device="pendlerDUS" data-get="plan_departure_delay_1" style="font-size:x-large;color:#F20C23;" class="cell"></div>
+				  <div data-type="label" data-device="pendlerDUS" data-get="plan_departure_delay_2" style="font-size:x-large;color:#F20C23;" class="cell"></div>
+				  <div data-type="label" data-device="pendlerDUS" data-get="plan_departure_delay_3" style="font-size:x-large;color:#F20C23;" class="cell"></div>
+				</div>
+				<div class="inline">
+				  <div data-type="label" class="narrow">Zugnummer</div>
+				  <div data-type="label" data-device="pendlerDUS" data-get="travel_vehicle_nr_1" style="font-size:x-large;color:#aa6900;" class="cell"></div>
+				  <div data-type="label" data-device="pendlerDUS" data-get="travel_vehicle_nr_2" style="font-size:x-large;color:#aa6900;" class="cell"></div>
+				  <div data-type="label" data-device="pendlerDUS" data-get="travel_vehicle_nr_3" style="font-size:x-large;color:#aa6900;" class="cell"></div>
+				</div>
+            </td>
+        </tr>
+	</table>
+</li>				
+				
+			</ul>
+		</div>
+	</body>
+</html>
+		

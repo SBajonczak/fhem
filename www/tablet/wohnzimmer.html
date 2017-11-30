@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<div class="gridster">
+			<ul>
+				<li data-row="1" data-col="1" data-sizex="9" data-template="menu.html"></li>
+				<li data-row="2" data-col="1" data-sizex="1" data-sizey="2">
+					<header>Licht</header>
+					<div class="cell">
+						<div data-type="switch" data-device="Aquarium_Licht"></div>
+						<div data-type="label">Aquarium</div>
+					</div>					
+					<div class="cell">
+						<div data-type="switch" data-device="Stehlampe_Licht"></div>
+						<div data-type="label">Stehlampe Wohnzimmer</div>
+					</div>
+				</li>
+				<li data-row="5" data-col="2" data-sizex="2" data-sizey="3">
+					<header>Fernsehen</header>
+					<div class="cell">
+						<div data-type="switch" data-device="TV" data-icon="fa-television"></div>
+						<div data-type="label">TV</div>
+					</div>
+					<div class="cell">
+						<div data-type="volume" data-device='TV' data-cmd="set" data-set="volume" data-get="volume" data-min="0" data-max="100" dataclass=""></div>
+					</div>
+				</li>
+				<li data-row="5" data-col="4" data-sizex="2" data-sizey="5">
+					<header>Radio Steuerung</header>
+					<div data-type="switch" data-device="WifiRadio" data-set-on="play" data-set-off="stop" data-get-on="play" data-get-off="stop" data-icon="fa-music" data-on-color="white" class="cell"></div>
+	<div data-type="volume" data-device='WifiRadio' data-cmd="set" data-set="volume" data-get="volume" data-min="0" data-max="100" dataclass="cell"></div>
+					<div data-type="label" data-device="WifiRadio" data-get="Name" class="cell big thin"></div>
+					<div data-type="label" data-device="WifiRadio" data-get="rawTitle" class="cell big thin"></div>	
+				</li>
+				
+				<li data-row="5" data-col="6" data-sizex="2" data-sizey="5">
+					<header>Radio Senderauswahl</header>
+					<div class="cell">
+						<div data-type="button" data-device="WifiRadio"  data-icon="fa-play" data-cmd="set WifiRadio play 2" class="cell"></div>
+						<div data-type="label">Kiraka</div>
+					</div>
+					<div class="cell">
+						<div data-type="button" data-device="WifiRadio"  data-icon="fa-play" data-cmd="set WifiRadio play 0" class="cell"></div>
+						<div data-type="label">Sunshine Live</div>
+					</div>
+					<div class="cell">
+						<div data-type="button" data-device="WifiRadio"  data-icon="fa-play" data-cmd="set WifiRadio play 1" class="cell">					</div>
+
+						<div data-type="label">Eins Live</div>
+					</div>
+				</li>
+
+				<li data-row="5" data-col="1" data-sizex="1" data-sizey="5">
+					<header>Status</header>
+						<div class="cell">
+							<div class="bigger" data-type="symbol" data-device="Haustuer" data-get-on="opened"></div>
+							<div data-type="label" class="top-narrow">Haustür</div>
+						</div>
+						<div class="cell">
+
+							<div class="bigger" data-type="symbol" data-device="Balkontuer" data-get-on="opened"></div>
+							<div data-type="label" class="top-narrow">Balkontür</div>
+						</div>
+				</li>
+
+				</ul>
+		</div>
+	</body>
+</html>
+		
