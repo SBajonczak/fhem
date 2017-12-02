@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+		<!-- define your personal style here, it wont be overwritten  -->
+		<link rel="stylesheet" href="css/fhem-green-ui.css" />
+		<!--link rel="stylesheet" href="css/fhem-tablet-ui-user.css" />-->
+
+		<script src="js/fhem-tablet-ui.js" defer></script>
+
+
+		<title>Haussteuerung</title>
+	</head>
+
+	<body>
+		<div class="gridster">
+			<ul>
+				<li data-row="5" data-col="3" data-sizey="1" data-sizex="1">
+					<header>Fensterstatus</header>
+					<div class="sheet">
+						<div class="row">
+							<div class="cell">
+								<div class="big" data-type="symbol" data-device="Dachfenster_Garten" data-get-on="opened"/>
+								<div data-type="label" class="top-narrow small">Fenster Garten</div>
+							</div>
+							<div class="cell">
+								<div class="big" data-type="symbol" data-device="Dachfenster_Strasse" data-get-on="opened"/>
+								<div data-type="label" class="top-narrow small">Fenster Strasse</div>
+							</div>
+							<div class="cell">
+								<div class="big" data-type="symbol" data-device="Kuechen_Fenster" data-get-on="opened"/>
+								<div data-type="label" class="top-narrow small">Küche</div>
+							</div>
+							<div class="cell">
+								<div class="big" data-type="symbol" data-device="Haustuer" data-get-on="opened"/>
+								<div data-type="label" class="top-narrow small">Haustür</div>
+							</div>
+							<div class="cell">
+								<div class="big" data-type="symbol" data-device="Balkontuer" data-get-on="opened"/>
+								<div data-type="label" class="top-narrow small">Balkontür</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+
+		</div>
+	</body>
+
+</html>

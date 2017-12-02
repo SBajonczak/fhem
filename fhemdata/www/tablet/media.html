@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" href="favicon.ico" type="image/x-icon" ></div>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="longpoll_filter" content=".*">
+		<link rel="stylesheet" href="css/fhem-tablet-ui-user.css" />
+		<script src="js/fhem-tablet-ui.js" defer></script>
+		<title>Haussteuerung</title>
+	</head>
+	<body>
+		<div class="gridster">
+			<ul>
+				<li data-row="1" data-col="1" data-sizey="7" data-sizex="1" data-template="menu_v2.html"></li>
+				<li data-row="2" data-col="2" data-sizex="4" data-sizey="7">
+					<header>Radio Steuerung</header>
+						<div class="centered container" style="margin-top:20px">
+							<div class="left" style="margin-left:40px;margin-right:25px">
+								<div data-type="switch" data-device="WifiRadio" data-set-on="play" data-set-off="stop" data-get-on="play" data-get-off="stop" data-icon="fa-music" data-on-color="white" class="cell"></div>
+								<div data-type="label" data-device="WifiRadio" data-get="Name"></div>
+								<div data-type="label" data-device="WifiRadio" data-get="rawTitle"/>				
+							</div>
+							<div class="left" style="margin-left:40px;margin-right:25px">
+								<div data-type="volume" data-device='WifiRadio' data-cmd="set" data-set="volume" data-get="volume" data-min="0" data-max="100" dataclass="cell"></div>
+							</div>
+							<div class="left" style="margin-left:40px;margin-right:25px">
+							</div>
+						</div>
+						<div class="row"/>
+						<header>Senderauswahl</header>
+						<div class="centered container" style="margin-top:20px">
+							<div class="left" style="margin-left:40px;margin-right:25px">
+								<div data-type="button" data-device="WifiRadio"  data-icon="fa-play" data-cmd="set WifiRadio play 2" class="cell"></div>
+									<div data-type="label">Kiraka</div>
+								</div>
+								<div class="left" style="margin-left:40px;margin-right:25px">
+									<div data-type="button" data-device="WifiRadio"  data-icon="fa-play" data-cmd="set WifiRadio play 0" class="cell"></div>
+									<div data-type="label">Sunshine Live</div>
+								</div>
+								<div class="left" style="margin-left:40px;margin-right:25px">
+									<div data-type="button" data-device="WifiRadio"  data-icon="fa-play" data-cmd="set WifiRadio play 1" class="cell"></div>
+									<div data-type="label">Eins Live</div>
+								</div>
+						</div>
+
+				</li>
+				
+				<li data-row="5" data-col="6" data-sizex="2" data-sizey="7">
+					<header>Fernsehen</header>
+					<div class="cell">
+						<div data-type="switch" data-device="TV" data-icon="fa-television"/>
+						<div data-type="label" data-device="TV" data-get="channel"/>
+					</div>
+					<div class="cell">
+						<div data-type="volume" data-device='TV' data-cmd="set" data-set="volume" data-get="volume" data-min="0" data-max="100" dataclass=""></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
+		

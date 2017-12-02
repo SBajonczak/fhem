@@ -1,0 +1,127 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Sat Jun 17 07:28:26 2017 GMT by CPAN::Checksums (v2.12)
+$cksum = {
+  'IO-Socket-Multicast-1.09.meta' => {
+    'md5' => 'c4d1a0f7fe70b9ba3416e7a8f9889d4e',
+    'mtime' => '2009-11-03',
+    'sha256' => '071da3a74a6189297dae304507f8248db2f75e7ec64b9dbda4aab2f56b5e5c0b',
+    'size' => 529
+  },
+  'IO-Socket-Multicast-1.09.tar.gz' => {
+    'md5' => '69bf7b44779e0badaecd2bd7ad191465',
+    'md5-ungz' => '5fc5cd1f1cbe6cd457063ce6c290cca6',
+    'mtime' => '2009-11-03',
+    'sha256' => '75b0f7b2f25ad34e59983faa8a19115330fefa935c3663aa9f89ebe4d0de4f04',
+    'sha256-ungz' => 'af17439b56b24ad96fcd583ee887ede23df0b48355a4ea76ca456e817b426165',
+    'size' => 11574
+  },
+  'IO-Socket-Multicast-1.11.meta' => {
+    'md5' => '463a650f515d3a91d3027a6b9d7aa0ce',
+    'mtime' => '2009-11-04',
+    'sha256' => '98b52897c83cd897ea203b4732e168bd8ebe99ad04c986c1084352cc6e83609d',
+    'size' => 421
+  },
+  'IO-Socket-Multicast-1.11.tar.gz' => {
+    'md5' => 'c6a25066cdf8efd8a246c13469fe2723',
+    'md5-ungz' => '3ae133cc0c5634b748ccd13964f885e4',
+    'mtime' => '2009-11-04',
+    'sha256' => '3bb1a059cb9ac3cf8e6945ac0b450db6ee982038fcdc00334779000e9b8070dd',
+    'sha256-ungz' => '8a21ec19c6643c0d5b7f690b2361e33dc1c7d2bddc7bd1795662818d562630a8',
+    'size' => 11504
+  },
+  'IO-Socket-Multicast-1.12.meta' => {
+    'md5' => '8cccccd9c6981b7ae6d200b1fced5322',
+    'mtime' => '2010-04-28',
+    'sha256' => '92bd4e38a714b27f331faa9888f895c40b8f534c86dd83a89b8ba84b855caf68',
+    'size' => 529
+  },
+  'IO-Socket-Multicast-1.12.tar.gz' => {
+    'md5' => 'c96e6cbb367b1d11ffe7bb9fbd833540',
+    'md5-ungz' => 'f271594e01cc24476ebf88e1a370ec8a',
+    'mtime' => '2010-04-28',
+    'sha256' => '70e8af4aa21d19bab5edd9f43a6b3d6277748a65145d46ff0ea2ae4c59495c72',
+    'sha256-ungz' => '4b1d195cfbb882a487b653dfa9a97bb123f13a7f4db5330edd0f3c9b07b05529',
+    'size' => 11685
+  },
+  'Padre-Plugin-Swarm-0.092.meta' => {
+    'md5' => 'c5ff5591d1ae7a4d647ad0de49f63ee9',
+    'mtime' => '2010-02-13',
+    'sha256' => '0acaf1ea80f934ae50b3679261e78e35397f2ea55badf2008f4d71df4824129e',
+    'size' => 785
+  },
+  'Padre-Plugin-Swarm-0.092.tar.gz' => {
+    'md5' => '4c30d480e6d80e39241a024ba578e310',
+    'md5-ungz' => 'f47e276c34593d877f01662ab4766251',
+    'mtime' => '2010-02-13',
+    'sha256' => 'ace4176d7d3ee48913f2f34a61f4a2ca240bbbc9c5e5617ae5b6682a007ca3a5',
+    'sha256-ungz' => '5f084cb40af02d0dbcdaa680c2c303e28711a0c182b10fd54af1db902fd1e8b5',
+    'size' => 64493
+  },
+  'Padre-Plugin-Swarm-0.093.meta' => {
+    'md5' => '2455f7bec04e322e8e39de579cbcf0a0',
+    'mtime' => '2010-02-13',
+    'sha256' => 'b32fe795100ce591f8c4f3fc917731640f386c2ff01d31f566ba9fa85eec9766',
+    'size' => 785
+  },
+  'Padre-Plugin-Swarm-0.093.tar.gz' => {
+    'md5' => '8daf910c4036f674dcd8b01a5974d281',
+    'md5-ungz' => '3c00dab65cb69ef1539e1280cfe10891',
+    'mtime' => '2010-02-13',
+    'sha256' => '9575c28b66df1e70ef02ee90f83af955d867d7cb3871f4d97cb28e84507fdda8',
+    'sha256-ungz' => '2b9bb382880ad21650e3f428c05c1fa8c3f009d9e460abf373626bbba6ab26a4',
+    'size' => 65358
+  },
+  'Padre-Plugin-Swarm-0.1.meta' => {
+    'md5' => '0c2e0e3084948fdf1a8cf81d3c7cbf5a',
+    'mtime' => '2011-02-03',
+    'sha256' => 'e723560738a3968b907bdc3a01943290fc7e2891722dbccfd1e669a77efe0481',
+    'size' => 783
+  },
+  'Padre-Plugin-Swarm-0.1.tar.gz' => {
+    'md5' => '013fdff21630911832825f896db712aa',
+    'md5-ungz' => '75ee5716ef289d0877f4ddb31f95082b',
+    'mtime' => '2011-02-03',
+    'sha256' => '386c9446b5c536a77abdb14a87aa3fa198058dcfa670f0ac060d13b425c0cc98',
+    'sha256-ungz' => '2f38f740605b07e2fc18a7b3a59a19bd86e4706af2dd4b8858f6098b420e64cc',
+    'size' => 68396
+  },
+  'Padre-Plugin-Swarm-0.11.meta' => {
+    'md5' => '4c844202350a1bbc4cb40558b36e2643',
+    'mtime' => '2011-07-29',
+    'sha256' => '85051e5674aafe565508551bb070d2986c9300715af64043d8646a0475077ee1',
+    'size' => 800
+  },
+  'Padre-Plugin-Swarm-0.11.tar.gz' => {
+    'md5' => '41d2a6685d11c1654d03e17a6c6b3f4c',
+    'md5-ungz' => '1477ddf51c2b4b741c0505012f45667e',
+    'mtime' => '2011-07-29',
+    'sha256' => 'e4e9ef4e4c6f5c6b3df215db7899e93dbffdcc300199820bbe338e944dab5f20',
+    'sha256-ungz' => '79d28a8eb166a3bb76252efae1641255af049bf9986bc97813b0bd42999ec4de',
+    'size' => 68400
+  },
+  'Padre-Plugin-Swarm-0.2.meta' => {
+    'md5' => '99da37c5421d97327f3c6450309457a0',
+    'mtime' => '2011-11-15',
+    'sha256' => '3ff231f75a490d1e6516cfc94cd8b0fe6a56ea264a8b502f47e499d53f2f1503',
+    'size' => 847
+  },
+  'Padre-Plugin-Swarm-0.2.tar.gz' => {
+    'md5' => '271764cd30f0e81c81cf6a6cb9be5704',
+    'md5-ungz' => '532f34f7c1f9222aef6071950701ce4a',
+    'mtime' => '2011-11-15',
+    'sha256' => '6c51921575cd20e8f77f62285ee9629277e978b0fd501f092da8ccd80e04d9c0',
+    'sha256-ungz' => 'a972d48e662c67b604561d0966dec8ac0db55825c83f8aa05011d2fe09376167',
+    'size' => 83223
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iEYEARECAAYFAllE2hoACgkQMo2oZ0UPiewGFwCgiDYSJ1iwz/2Z2Tg9h7RdHolC
+9cEAniK+lN9XPG9bAFCIAUjqBXO5N7oS
+=YWfw
+-----END PGP SIGNATURE-----

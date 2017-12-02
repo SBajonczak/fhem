@@ -1,0 +1,21 @@
+[cmdline]
+0=cd ~
+1=
+
+[Dir Hist New Right Panel]
+0=/opt
+1=/opt/yowsup
+2=/opt/yowsup-master
+
+[Dir Hist New Left Panel]
+0=/opt
+1=/opt/yowsup/dist
+2=/opt/yowsup
+3=/opt/yowsup/build/bdist.linux-x86_64
+4=/opt/yowsup/build/scripts-3.2
+5=/opt/yowsup/build
+6=/opt/yowsup/build/lib
+7=/opt/yowsup/build/lib/yowsup/env
+8=/opt/yowsup/build/lib/yowsup
+9=/opt/yowsup-master
+10=/opt/fhem

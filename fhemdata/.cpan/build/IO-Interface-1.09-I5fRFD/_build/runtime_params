@@ -1,0 +1,5 @@
+do{ my $x = {
+  'install_base' => '/opt/fhem/perl5',
+  'installdirs' => 'site'
+};
+$x; }

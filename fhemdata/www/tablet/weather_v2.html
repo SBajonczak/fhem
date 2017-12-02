@@ -1,0 +1,71 @@
+<html>
+	<title>FHEM Sub1</title>
+	<head>
+	</head>
+	<body>
+		<div class="gridster">
+			<ul>
+				<li data-row="1" data-col="1" data-sizey="7" data-sizex="1" data-template="menu_v2.html"></li>
+				
+				<li data-row="3" data-col="2" data-sizex="9" data-sizey="2">
+					<header>7 Tage Aussicht</header>
+					<div class="cell">	
+				<div data-type="chart" data-device="WetterProplanta"
+						 data-logdevice='[
+											"proplantaProxy",
+											"proplantaProxy",
+											"proplantaProxy",
+											"proplantaProxy"
+										]'
+						 data-columnspec='[
+											"Func:logProxy_proplanta2Plot(\\x22WetterProplanta\\x22,\\x22weatherDayIcon\\x22,$from,$to,12,\\x22day\\x22)",
+											"Func:logProxy_proplanta2Plot(\\x22WetterProplanta\\x22,\\x22rain_\\x22,$from,$to,12,\\x22day\\x22)",
+											"Func:logProxy_proplanta2Plot(\\x22WetterProplanta\\x22,\\x22chOfRain_\\x22,$from,$to,12,\\x22day\\x22)",
+											"Func:logProxy_proplanta2Plot(\\x22WetterProplanta\\x22,\\x22cloud_\\x22,$from,$to,12,\\x22day\\x22)"
+											]'
+						 data-style='[
+											"ftui l99icon",
+											"ftui l6fill",
+											"ftui l5fill",
+											"ftui l1fill"
+									]'
+						 data-ptype='[
+											"icons:1",
+											"steps",
+											"quadraticSmooth",
+											"quadraticSmooth"
+									]'
+						 data-uaxis='[
+											"primary",
+											"primary",
+											"secondary",
+											"secondary"
+									]'
+						 data-legend='[
+											"Bedingung",
+											"Regen",
+											"Regenwahrscheinlichkeit",
+											"Wolken"
+									]'
+						 data-yunit="mm"
+						 data-ytext="Regen"
+						 data-yunit_sec="%"
+						 data-ytext_sec="Chance auf Regen / Wolken"
+						 data-timeformat="eeee"
+						 data-minvalue="auto"
+						 data-maxvalue="auto"
+						 data-minvalue_sec="auto"
+						 data-maxvalue_sec="auto"
+						 data-daysago_start = "0"
+						 data-daysago_end = "-7"
+						 data-xticks="1440"
+						 data-yticks="auto"
+						 data-showlegend="true"
+						 class="nobuttons"></div>
+					</div>
+				</li>
+				
+			</ul>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,323 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Mon Oct  9 22:43:24 2017 GMT by CPAN::Checksums (v2.12)
+$cksum = {
+  'Cisco-Management-0.09.meta' => {
+    'md5' => '711796cbd41f3a6c6b4a586cf113e825',
+    'mtime' => '2015-04-24',
+    'sha256' => '02e292452ff1b1e2b82e1a9b99bcb89c1eabcc3e95526ff6ee9e754d1e90fbfb',
+    'size' => 1070
+  },
+  'Cisco-Management-0.09.tar.gz' => {
+    'md5' => 'f24b560c64cde936ecbc6aedfb3b33d6',
+    'md5-ungz' => 'ed68b46f044733a83d4a6626df3346ad',
+    'mtime' => '2015-04-24',
+    'sha256' => '59f570a2297c5eeac1ee2547db4e6be44a21ad4e1d5e07475f0929a1caf386dd',
+    'sha256-ungz' => '9f70340d4b1ed7699021c3c509463411151a38d033b854dd43f0d3ee14b0c8cc',
+    'size' => 32302
+  },
+  'Cisco-SNMP-1.05.meta' => {
+    'md5' => '52c1f76fb9ca920713c0165f6acb9ef2',
+    'mtime' => '2017-10-06',
+    'sha256' => 'b07e82db7b68b30b26827faa06654b681d2ee736e44916924466116b17aeea34',
+    'size' => 1078
+  },
+  'Cisco-SNMP-1.05.tar.gz' => {
+    'md5' => '6274827bff5035e0429bf5471b8b7865',
+    'md5-ungz' => '054d116840010b033cfc6e2c9b0d15fb',
+    'mtime' => '2017-10-06',
+    'sha256' => '9f8472a701e61a60d1cac49f7d4dd332e30cd751ded634e1f6400e0d9439753d',
+    'sha256-ungz' => 'dafbec0638076624f9a5ae1f76932d3aed35aa7c4e4c61da0e34aff582032241',
+    'size' => 44296
+  },
+  'Crypt-Cisco-1.00.meta' => {
+    'md5' => '3de6a70b6526aada431b8cf9df1d457e',
+    'mtime' => '2017-09-25',
+    'sha256' => 'bab86348b26d34d519b5fb8486f16e25239bb68d8690b6f17b4459f263de2342',
+    'size' => 953
+  },
+  'Crypt-Cisco-1.00.tar.gz' => {
+    'md5' => '27229cd9404e945948e0407ab178bd80',
+    'md5-ungz' => 'ae0d50f42aaf3f10ce55ae699e6c2120',
+    'mtime' => '2017-09-25',
+    'sha256' => 'ef03b1b5c1e350618c4bb2fe9a8ddddf527d7ffa5f665af7f4d9d696e5790222',
+    'sha256-ungz' => '97366d439d21df178285febd7c6ef31e6c5506754099a564ab4ec3ff427c6040',
+    'size' => 6041
+  },
+  'Net-Frame-Layer-CDP-1.01.meta' => {
+    'md5' => 'f4b4a43e16a6da679bf7344835f771f3',
+    'mtime' => '2013-04-03',
+    'sha256' => '5e060fa0af4eed79b755a3a1022362884055ed4752041683814e9a7410fd8ee8',
+    'size' => 952
+  },
+  'Net-Frame-Layer-CDP-1.01.tar.gz' => {
+    'md5' => '5320036597e31a0033f20a8925f9c2de',
+    'md5-ungz' => '9bfdb915324f4181168ae391d3804bc0',
+    'mtime' => '2013-04-11',
+    'sha256' => '4d64625c1c23e6f5ed7011de36ef7a3a499c6d6d0e3412fd4249350a9878e819',
+    'sha256-ungz' => 'c2985d70c4469b5e003a4ceeb10b0f509337a6abf9586e07d7b8224cd85b66cb',
+    'size' => 18652
+  },
+  'Net-Frame-Layer-DNS-1.05.meta' => {
+    'md5' => '259969d60c11c499898798da99539246',
+    'mtime' => '2017-05-09',
+    'sha256' => 'a9a40bf72a9db858e6a3b957d0f815b11dce0087e235803a0bc32d0c27ca6643',
+    'size' => 962
+  },
+  'Net-Frame-Layer-DNS-1.05.tar.gz' => {
+    'md5' => 'ee4e7739a21d51be87dca540c2eeb84d',
+    'md5-ungz' => '6a6c78f2cc3e39c2f21bfcf2247ef7fe',
+    'mtime' => '2017-05-09',
+    'sha256' => '3c345e5d2ac97edf9a46dc0d53ce07fed9b4babfd019b05328c04fb8df965e91',
+    'sha256-ungz' => '43c06b99dfe778b4d0eb46c9d0017ea91b21e719203b2e76f28a33d84466ce18',
+    'size' => 19141
+  },
+  'Net-Frame-Layer-HSRP-1.00.meta' => {
+    'md5' => '2a90da05d0b854ae83d02893d753c1d8',
+    'mtime' => '2013-03-26',
+    'sha256' => 'ff616026a56c2b9b1408c4feeb7fa07113d4cf98ca33a54e3ce6fa4c2b30e77c',
+    'size' => 956
+  },
+  'Net-Frame-Layer-HSRP-1.00.tar.gz' => {
+    'md5' => '28d573db576319746cada82e794ea2fe',
+    'md5-ungz' => '537a5e75f836737509717de37dca5e69',
+    'mtime' => '2013-03-26',
+    'sha256' => 'b6e7356163190b875d1b2b5fdb3cbce1da037982d82065882814d4e1d46249d3',
+    'sha256-ungz' => 'a06f890359259930f78ecbec7d0fc4b7b6e3626c8d5b00193addf3ea92d9c21a',
+    'size' => 6563
+  },
+  'Net-Frame-Layer-ICMPv6-MLD-1.00.meta' => {
+    'md5' => 'f7b867bc7f405199fe39085fa7cf16e2',
+    'mtime' => '2017-10-06',
+    'sha256' => '9bc7e7348bffffb2f19aecdf86f834a1d70bbb68e5c2ed5c9685d57c0af58f2e',
+    'size' => 1076
+  },
+  'Net-Frame-Layer-ICMPv6-MLD-1.00.tar.gz' => {
+    'md5' => '8363f63e7aeb19ca179870dd59ffac82',
+    'md5-ungz' => 'd162d85f824d3ffa7f90ae9f788d9f3a',
+    'mtime' => '2017-10-06',
+    'sha256' => '206f867e29b52ad01cf46003b0f66d16d5b89e408c835c7d1573907266ed96d3',
+    'sha256-ungz' => '9f33008a54d821dbb888cea2c6f05d9b56af1007b94a4c226cf10641c77cbfd1',
+    'size' => 8866
+  },
+  'Net-Frame-Layer-IGMP-1.02.meta' => {
+    'md5' => '0d7b4eb6ab4a7766fcbaa66bdb597b35',
+    'mtime' => '2017-05-22',
+    'sha256' => '869293b9cd4d72613010625f783e2dac29a862df36ca754266c42a2c3463214f',
+    'size' => 979
+  },
+  'Net-Frame-Layer-IGMP-1.02.tar.gz' => {
+    'md5' => '2334f4c638ad0ffbc3454b797963f541',
+    'md5-ungz' => '87a8536e568429d556c5b26e9497d464',
+    'mtime' => '2017-05-22',
+    'sha256' => 'c48508c1eb16fa454af7c5c3bcc03dabf3f2ec0a3735e0085db84e88b00158d3',
+    'sha256-ungz' => '60ede2934ba3f8debac3f64b55762e3309f2ff8a3bb82b935c37a9bbd596c0ac',
+    'size' => 9556
+  },
+  'Net-Frame-Layer-MPLS-1.00.meta' => {
+    'md5' => '587a11076ae6fb53bdfdc85d565b1a0a',
+    'mtime' => '2017-05-25',
+    'sha256' => 'a914f78e5447c4e923f361dc34516f9cdffa0b899c45faf07fe88ca5c499919c',
+    'size' => 974
+  },
+  'Net-Frame-Layer-MPLS-1.00.tar.gz' => {
+    'md5' => 'f591db8d38ad0d2905086efa78c8c80b',
+    'md5-ungz' => 'bf83bb35ef842cf8802c958377e97eaa',
+    'mtime' => '2017-05-25',
+    'sha256' => '25031ab6ec70a9e1338d5d735878d10db27a559785f69e3fa7648d133813af89',
+    'sha256-ungz' => '83f80f0c22593762375d5064673e6169d24a683ae58a0bc11b9a50494127d225',
+    'size' => 7363
+  },
+  'Net-Frame-Layer-NTP-1.02.meta' => {
+    'md5' => 'dfb73babdba47bd4b4d0b4f9f509723b',
+    'mtime' => '2016-01-18',
+    'sha256' => 'e0b36326468e4b8c98b36fb12975f809aa2be63e400b54f3cfc7c51bd177973d',
+    'size' => 929
+  },
+  'Net-Frame-Layer-NTP-1.02.tar.gz' => {
+    'md5' => '8bb84e9ff865ca727eb14e4cba31e5a1',
+    'md5-ungz' => '85696d5371f76cd4e55fdbe04c2e276e',
+    'mtime' => '2016-01-18',
+    'sha256' => '179331a3784a509fd1aaaa5e1b3342486b4042edfa44457c9fcf6f5dd3df9dac',
+    'sha256-ungz' => '9d2f8405b8575f0bdf3cf2a1c02938b5bbd30d8c5bc3b0ca074d0b4ef55ec53b',
+    'size' => 8718
+  },
+  'Net-Frame-Layer-RIP-1.02.meta' => {
+    'md5' => '19b4993fdc0060d410667e7bcceb66f1',
+    'mtime' => '2012-01-27',
+    'sha256' => 'b95afcd7d6b6b63a2b166563eea9d7820099869f467de715b9488252310d0971',
+    'size' => 603
+  },
+  'Net-Frame-Layer-RIP-1.02.tar.gz' => {
+    'md5' => '53d19ce6d159b0407640494e28fdf3c6',
+    'md5-ungz' => 'ee7c14364041cafa686f9d1e023e0632',
+    'mtime' => '2012-01-27',
+    'sha256' => '05f2898a8df40dcd064aa16661d4a50883ff202ebf5c85e532559dc96e7cb094',
+    'sha256-ungz' => 'eee700049e58244ee6fb8cd2ff14d2e17b4c6182d3d60a70c73a9d1f7e139bf4',
+    'size' => 10320
+  },
+  'Net-Frame-Layer-RIPng-1.02.meta' => {
+    'md5' => 'f59764d9c1bf3868e2f7b11d15102dde',
+    'mtime' => '2012-01-27',
+    'sha256' => 'f78f091053e84f784f8ec9ea3f2f8a41d8f28b1dd6cbd0154525d777b6e561fc',
+    'size' => 653
+  },
+  'Net-Frame-Layer-RIPng-1.02.tar.gz' => {
+    'md5' => '85d13b8a0f0103314b733a97a24ddc08',
+    'md5-ungz' => '09a64a5656728a2742a0c071eebd2c70',
+    'mtime' => '2012-01-27',
+    'sha256' => '7344c56a0ff37fac1ff7978c8c3fa908b1b9de6c421162bf8ec8e491912c7e0f',
+    'sha256-ungz' => '76f73c69be64e4ed5cd98230ba7afc9a71141a3122e23c4d76f95afac80274d5',
+    'size' => 8240
+  },
+  'Net-Frame-Layer-SNMP-1.02.meta' => {
+    'md5' => '09893cfdaf144ac6fc7fc18ca9689f21',
+    'mtime' => '2016-12-09',
+    'sha256' => 'caf961b3ee16ba57e1d594ce568a7f7c191821afb7881bc893ed9ea4b6948781',
+    'size' => 1000
+  },
+  'Net-Frame-Layer-SNMP-1.02.tar.gz' => {
+    'md5' => '513e8ef9a8068bdd610e613884cb02e2',
+    'md5-ungz' => '60bfac8589285367d7735faea58f2ae7',
+    'mtime' => '2016-12-09',
+    'sha256' => '9b46b9d9ee1edd312aced8363c80542fb5102c5975ced2e65e56b5b1242c57ec',
+    'sha256-ungz' => 'a84659461d773e7fc540b63f9407a5f272891b04891d562b35004ea8da2975b7',
+    'size' => 11517
+  },
+  'Net-Frame-Layer-Syslog-1.05.meta' => {
+    'md5' => 'f5d73d217fc23d012af19cb564e6dc71',
+    'mtime' => '2016-12-14',
+    'sha256' => 'b95157465d18ee6aeb87551706c70c4926035dbeb10ab74b6a293b26ad84096d',
+    'size' => 935
+  },
+  'Net-Frame-Layer-Syslog-1.05.tar.gz' => {
+    'md5' => 'b05f54abdeeb6aa8df786be0e0c3e074',
+    'md5-ungz' => '1b52c85f8ff1f4916b50b4e476237539',
+    'mtime' => '2016-12-14',
+    'sha256' => '6d0aaa247e78535e06fc6411436cdcb863ccee576a330a1cc0d9c731ea6104c6',
+    'sha256-ungz' => '98c654dce8bb8b568c0debf07a434026a019e8ecc5570ccea0d0f678b64d5cee',
+    'size' => 10315
+  },
+  'Net-Frame-Layer-VRRP-1.00.meta' => {
+    'md5' => '62398b73826d66b2ef31dd5ad19ad699',
+    'mtime' => '2016-01-19',
+    'sha256' => '5420d96831a44cf93c3e04409d87ff495d3ba44dd2006ba8006666f09b2417c7',
+    'size' => 961
+  },
+  'Net-Frame-Layer-VRRP-1.00.tar.gz' => {
+    'md5' => '14f623d182529a91532953f1b6ac370e',
+    'md5-ungz' => 'e3b4015f13c1f8890a2502f3fbf901c1',
+    'mtime' => '2016-01-19',
+    'sha256' => '497abd219319b9dd9a517d08cb2c1fe34fdcc4cc2f67ac2e981099d1f391dfc5',
+    'sha256-ungz' => '3a8dd65536609e87e764dc0beab82c3b149c146ebe934b20ac9bd2c58a15e878',
+    'size' => 7077
+  },
+  'Net-SNMPTrapd-0.17.meta' => {
+    'md5' => '97b4a7c5da6e0bd30dd2e9bd675a2e70',
+    'mtime' => '2016-12-09',
+    'sha256' => '3f1c19c39b95fe1c1eda8d147df9a256faf4da488e65c07de71fdb0bd2f99bca',
+    'size' => 1011
+  },
+  'Net-SNMPTrapd-0.17.tar.gz' => {
+    'md5' => 'a85c6630bf41b8b510c73cc4b2b93cfc',
+    'md5-ungz' => '01930dd6db080dbfad7226cb15dfeb00',
+    'mtime' => '2016-12-09',
+    'sha256' => 'd1735cca5b15c2567385f132380fd5585c295207070e7fc43aa0c3eae8c68353',
+    'sha256-ungz' => '463937519e58a552348d0faaa6313634c317218767f08640fef27bd230da6412',
+    'size' => 16534
+  },
+  'Net-SSH2-Cisco-0.04.meta' => {
+    'md5' => 'f5a1c58b68af98d3b6fbde6b98051ae0',
+    'mtime' => '2017-09-11',
+    'sha256' => '73e29388f5c8d6999364ea9504953c6ed50b126349eb510282ca624ce9c7f579',
+    'size' => 991
+  },
+  'Net-SSH2-Cisco-0.04.tar.gz' => {
+    'md5' => 'd1465cf82b7838ddfa815f61c228ee20',
+    'md5-ungz' => '3f0dd6433d1679e61d4c61ad645dcb52',
+    'mtime' => '2017-09-11',
+    'sha256' => '35452a96686545b62faa00a7ae9bf750ab70062539119a7ae020478bcdff9fbb',
+    'sha256-ungz' => '12da735feee90765eb4235e9cdc6db3eb504b833a65450b39cda6099c27cfe0f',
+    'size' => 27109
+  },
+  'Net-Syslogd-0.16.meta' => {
+    'md5' => 'd330857561bd42aff9ac13e8acf14726',
+    'mtime' => '2015-03-20',
+    'sha256' => '8179ba4c2cd8322b7e00b28e9eed7d7da773ce6bd36b8caca6fdf68470183588',
+    'size' => 967
+  },
+  'Net-Syslogd-0.16.tar.gz' => {
+    'md5' => '8f8dbc42646605f5fc401ab635df9fc3',
+    'md5-ungz' => 'b695f09d07ac813f0894dcfe7512ee2d',
+    'mtime' => '2015-03-20',
+    'sha256' => 'a7c009c7adc8f470b4df152599626c69050baa74c3cd6f6b724d103d1de14498',
+    'sha256-ungz' => '38a3477b7160c996add3ff9b5a1a6d7812311a09e5d79dcbd38e3f3168d2a642',
+    'size' => 12751
+  },
+  'Net-TFTPd-0.10.meta' => {
+    'md5' => 'd0374acfe02db9313a1a89737b5e47e5',
+    'mtime' => '2016-07-16',
+    'sha256' => 'a6357e41c86d6aafd6e8b60c887fce8f90c5a576b6fc4d121d3e1481a3901cde',
+    'size' => 907
+  },
+  'Net-TFTPd-0.10.tar.gz' => {
+    'md5' => '7249055e201a579b6bff71f5b3d19292',
+    'md5-ungz' => 'b15e30a5e1704622035bb16831c676f2',
+    'mtime' => '2016-07-16',
+    'sha256' => 'ccc83381cd3994aaae0e01234fe9b165cc5612afd7ef0eb75fce16f285031ecc',
+    'sha256-ungz' => 'b8a03fbeb98b7cc0f582c1f3d0c5e57c2353308828740a517c3c71319524edd4',
+    'size' => 11986
+  },
+  'Net-Telnet-Cisco-1.11.meta' => {
+    'md5' => 'ef810d550bd6deb32937b80aab2b4670',
+    'mtime' => '2017-09-11',
+    'sha256' => 'f6d2d24ba53eb0149c3bbaf792fc45bd4737d93de341f4a23bb7fcfc0e1f1a54',
+    'size' => 975
+  },
+  'Net-Telnet-Cisco-1.11.tar.gz' => {
+    'md5' => '225a80727b88ab6915cd9783b3331bd6',
+    'md5-ungz' => '66b74995cc68ea66f096bedb8c381201',
+    'mtime' => '2017-09-11',
+    'sha256' => 'bd2aa58c474f582c3736f290ce114c9530c26447c1c3d69130fa55259140f6c1',
+    'sha256-ungz' => 'baa434abf6b1fd21154332a9309415ad810c8fa2084e361da900a784f6e92c55',
+    'size' => 19282
+  },
+  'Win32-LockWorkStation-0.03.meta' => {
+    'md5' => 'ab0a694c29640aa8344704d9d5d50794',
+    'mtime' => '2014-01-15',
+    'sha256' => '2f6887bb0e92bfecfeec6496e3d0e33e6de71547f44f42d235e6bf54d43a19ae',
+    'size' => 932
+  },
+  'Win32-LockWorkStation-0.03.tar.gz' => {
+    'md5' => '86fab5eea76f70e31a958bacc3dcb1db',
+    'md5-ungz' => '53c65432f54064418c5d51d138fced8d',
+    'mtime' => '2014-02-03',
+    'sha256' => '284becae31d22a6eb65c851f741f5f936e315ba12c7e503ea97e61d1537328f8',
+    'sha256-ungz' => 'ec25118038b71f5797cf536a4e5e3137f3dee2aaeceb143601f5bbc3ba3cbad6',
+    'size' => 3642
+  },
+  'Win32-Net-Info-1.00.meta' => {
+    'md5' => '37838c7993d876313d7bde59ee10cb59',
+    'mtime' => '2017-10-06',
+    'sha256' => '9195079b38cf526851bc4738eb958c12afe918a47714ce2b0a40017be531f01a',
+    'size' => 909
+  },
+  'Win32-Net-Info-1.00.tar.gz' => {
+    'md5' => '9ffc0a3dffc4f05027c57bdb1508ee9b',
+    'md5-ungz' => 'c2dd7cf6a842cc5d452b57b0e7d042f1',
+    'mtime' => '2017-10-06',
+    'sha256' => 'ad963e6ebdda6fcfa7b4a7342759a9674d7cb0af15b5b99a46ec018db361971b',
+    'sha256-ungz' => '92884dcd914eeba4b2ca0cce625a743e61a4ce99f41db35bb512b3815cdad40d',
+    'size' => 8938
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iEYEARECAAYFAlnb+4wACgkQMo2oZ0UPiez1mwCeK6KjYjX8x6GhoPgg4oKumYqp
+1X0Aniday2WCIlkWW/m5la3iE4c3Tc4I
+=SpUV
+-----END PGP SIGNATURE-----

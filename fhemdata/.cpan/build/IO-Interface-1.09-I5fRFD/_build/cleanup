@@ -1,0 +1,8 @@
+do{ my $x = {
+  'blib' => 1,
+  'blib/arch/auto/IO/Interface/Interface.bs' => 1,
+  'blib/arch/auto/IO/Interface/Interface.so' => 1,
+  'lib/IO/Interface.c' => 1,
+  'lib/IO/Interface.o' => 1
+};
+$x; }

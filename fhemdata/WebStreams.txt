@@ -1,0 +1,5 @@
+Eins Live|http://www.wdr.de/wdrlive/media/einslive.m3u
+Hitradio FFH|http://streams.ffh.de/radioffh/mp3/hqlivestream.m3u
+FFH Top 40|http://streams.ffh.de/ffhchannels/mp3/hqtop40.m3u
+FFH 80er|http://streams.ffh.de/ffhchannels/mp3/hq80er.m3u
+Radio Fritz|http://fritz.de/livemp3
